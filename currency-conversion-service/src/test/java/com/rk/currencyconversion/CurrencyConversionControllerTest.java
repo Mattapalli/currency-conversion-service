@@ -1,4 +1,4 @@
-package com.rk.currencyconversion.rest;
+package com.rk.currencyconversion;
 import static org.mockito.Mockito.when;
 
 import java.math.BigDecimal;
@@ -19,6 +19,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 import com.rk.currencyconversion.feignclient.CurrencyExchangeServiceProxy;
 import com.rk.currencyconversion.model.CurrencyConversionBean;
+import com.rk.currencyconversion.rest.CurrencyConversionController;
 @SpringBootTest
 public class CurrencyConversionControllerTest {
 	@InjectMocks
