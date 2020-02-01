@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 
 import brave.sampler.Sampler;
-
+//http://localhost:8100/currency-converter-feign/from/USD/to/INR/quantity/99
 @SpringBootApplication
 @EnableFeignClients
 @EnableEurekaServer
